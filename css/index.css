@@ -1,0 +1,135 @@
+@charset "UTF-8";
+.web section .top {
+  width: 100%;
+  padding: 0; }
+.web section .engine {
+  background-color: #fbfaf7;
+  padding: 95px 0 130px; }
+  .web section .engine > .row:first-child {
+    width: 80%;
+    background: url("../img/index/yinqing.png") no-repeat right bottom;
+    margin: 0 auto; }
+    .web section .engine > .row:first-child div strong {
+      color: #0078d7; }
+    .web section .engine > .row:first-child div p {
+      color: #333333; }
+    .web section .engine > .row:first-child > div:first-child p {
+      padding: 16px 0 74px; }
+    .web section .engine > .row:first-child .row {
+      padding-bottom: 40px; }
+  @media screen and (max-width: 768px) {
+    .web section .engine {
+      background: none; } }
+.web section .advantage {
+  padding-top: 90px; }
+  .web section .advantage > .row {
+    max-width: 1000px;
+    margin: 0 auto; }
+    .web section .advantage > .row > div:first-child {
+      padding: 90px 0; }
+    .web section .advantage > .row strong {
+      font-size: 48px;
+      padding: 26px 7px;
+      color: #8fc31f; }
+    .web section .advantage > .row ul li {
+      padding: 17px 0;
+      list-style-type: none; }
+      .web section .advantage > .row ul li p {
+        font-size: 14px;
+        padding: 17px 0;
+        color: #666;
+        display: inline-block; }
+      .web section .advantage > .row ul li .advantage_img {
+        display: inline-block; }
+  @media only screen and (max-width: 480px) {
+    .web section .advantage .advantage_center {
+      width: 90%; }
+      .web section .advantage .advantage_center strong {
+        font-size: 24px;
+        padding-left: 20px; } }
+.web section .product {
+  color: white;
+  background-color: #2b80d9; }
+  .web section .product strong {
+    display: block;
+    padding: 112px 15px 70px;
+    text-align: center;
+    font-size: 48px; }
+  .web section .product .container {
+    max-width: 1000px;
+    padding: 0 10%; }
+    .web section .product .container .product_img {
+      text-align: center; }
+      .web section .product .container .product_img img {
+        padding-top: 8px; }
+    .web section .product .container .product_center {
+      height: 200px; }
+    .web section .product .container p {
+      font-size: 32px; }
+    .web section .product .container span {
+      font-size: 14px; }
+  @media only screen and (max-width: 768px) {
+    .web section .product strong {
+      font-size: 25px; }
+    .web section .product .container {
+      padding-left: 0; }
+      .web section .product .container .product_center {
+        height: 250px;
+        padding-top: 30px;
+        padding-left: 50px; } }
+  @media only screen and (min-width：769px) and (max-width: 992px) {
+    .web section .product strong {
+      font-size: 35px; }
+    .web section .product .container {
+      padding: 0 10px; }
+      .web section .product .container .product_center {
+        height: 280px; } }
+.web section .game {
+  padding: 38px 10% 40px; }
+  .web section .game a {
+    float: right;
+    padding-top: 45px;
+    color: #2a2a2a; }
+  .web section .game strong {
+    display: block;
+    font-size: 34px;
+    color: #2a2a2a;
+    padding: 45px 0; }
+  .web section .game img {
+    width: 100%;
+    padding-bottom: 5px; }
+  .web section .game .container {
+    max-width: 1000px; }
+  .web section .game .game_img {
+    max-width: 66px; }
+    .web section .game .game_img p {
+      height: 40px;
+      font-size: 14px;
+      color: #2a2a2a;
+      line-height: 20px;
+      text-align: center; }
+  @media only screen and (max-width: 768px) {
+    .web section .game a {
+      display: none; }
+    .web section .game strong {
+      font-size: 20px; } }
+.web section .partner {
+  width: 100%;
+  background-color: #f4f4f4; }
+  .web section .partner .container {
+    max-width: 1000px;
+    padding-bottom: 10px; }
+    .web section .partner .container .partner_title span {
+      font-size: 30px;
+      color: #2a2a2a;
+      display: inline-block;
+      padding: 38px 0; }
+    .web section .partner .container .partner_title small {
+      font-size: 12px;
+      color: #777777; }
+    .web section .partner .container img {
+      width: 100%;
+      max-width: initial;
+      padding-bottom: 20px; }
+
+/*# sourceMappingURL=index.css.map */

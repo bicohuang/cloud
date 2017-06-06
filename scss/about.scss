@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+.web{
+	section{
+		.container-fluid{
+			padding: 0;
+			.first{
+				max-width: 1000px;
+				padding:55px 0;
+				color: #2a2a2a;
+				strong{
+					display: block;
+					padding: 37px 0;
+					font-weight: normal;
+				}
+				strong+p{
+					font-size: 21px;
+					padding-bottom: 20px;
+					text-indent: 0;
+				}
+				p{
+					font-size: 14px;
+					line-height: 32px;
+					text-indent: 2em;
+				}
+				>div[img]{
+					vertical-align: middle;
+				}
+			}
+			.talents{
+				background-color: #8cc11f;
+				.container{
+					max-width: 1000px;
+					color: white;
+					padding: 55px 0;
+					strong{
+						display: block;
+						padding: 60px 0 ;
+					}
+					p{
+						font-size: 16px;
+						line-height: 30px;
+					}
+					
+					a{
+						color: #8CC11F;
+						margin-bottom: 10px;
+					}
+				}
+				
+			}
+			.model{
+				max-width: 1000px;
+				padding: 0;
+				.row{
+					padding: 60px 0;
+					border-bottom: 1px solid #d2d2d2;
+					strong{
+						display: block;
+						font-size: 26px;
+						color: #8CC11F;
+						padding: 40px 0;
+						font-weight: normal;
+					}
+					p{
+						font-size: 18px;
+						line-height: 30px;
+					}
+					ol{
+						li{
+							font-size: 14px;
+							line-height: 30px;
+						}
+					}
+				}
+				.row:last-of-type{
+					border-bottom: none;
+				}
+				
+			}
+			
+			.grey{
+				background-color: #f4f4f4;
+				>.container{
+					max-width: 1000px;
+					padding: 40px 0;
+					.greyTop{
+						padding-bottom: 40px;
+					}
+					.cantact{
+						background-color: #FFFFFF;
+						border:1px solid #e3e3e3;
+						padding: 20px;
+						margin-bottom: 20px;
+						.cantactImg{
+							display: inline-block;
+							margin-right: 10px;
+						}
+						P{
+							display: inline-block;
+						}
+					}
+				}
+			}
+			
+			
+		}
+	}
+}

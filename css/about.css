@@ -1,0 +1,74 @@
+.web section .container-fluid {
+  padding: 0; }
+  .web section .container-fluid .first {
+    max-width: 1000px;
+    padding: 55px 0;
+    color: #2a2a2a; }
+    .web section .container-fluid .first strong {
+      display: block;
+      padding: 37px 0;
+      font-weight: normal; }
+    .web section .container-fluid .first strong + p {
+      font-size: 21px;
+      padding-bottom: 20px;
+      text-indent: 0; }
+    .web section .container-fluid .first p {
+      font-size: 14px;
+      line-height: 32px;
+      text-indent: 2em; }
+    .web section .container-fluid .first > div[img] {
+      vertical-align: middle; }
+  .web section .container-fluid .talents {
+    background-color: #8cc11f; }
+    .web section .container-fluid .talents .container {
+      max-width: 1000px;
+      color: white;
+      padding: 55px 0; }
+      .web section .container-fluid .talents .container strong {
+        display: block;
+        padding: 60px 0; }
+      .web section .container-fluid .talents .container p {
+        font-size: 16px;
+        line-height: 30px; }
+      .web section .container-fluid .talents .container a {
+        color: #8CC11F;
+        margin-bottom: 10px; }
+  .web section .container-fluid .model {
+    max-width: 1000px;
+    padding: 0; }
+    .web section .container-fluid .model .row {
+      padding: 60px 0;
+      border-bottom: 1px solid #d2d2d2; }
+      .web section .container-fluid .model .row strong {
+        display: block;
+        font-size: 26px;
+        color: #8CC11F;
+        padding: 40px 0;
+        font-weight: normal; }
+      .web section .container-fluid .model .row p {
+        font-size: 18px;
+        line-height: 30px; }
+      .web section .container-fluid .model .row ol li {
+        font-size: 14px;
+        line-height: 30px; }
+    .web section .container-fluid .model .row:last-of-type {
+      border-bottom: none; }
+  .web section .container-fluid .grey {
+    background-color: #f4f4f4; }
+    .web section .container-fluid .grey > .container {
+      max-width: 1000px;
+      padding: 40px 0; }
+      .web section .container-fluid .grey > .container .greyTop {
+        padding-bottom: 40px; }
+      .web section .container-fluid .grey > .container .cantact {
+        background-color: #FFFFFF;
+        border: 1px solid #e3e3e3;
+        padding: 20px;
+        margin-bottom: 20px; }
+        .web section .container-fluid .grey > .container .cantact .cantactImg {
+          display: inline-block;
+          margin-right: 10px; }
+        .web section .container-fluid .grey > .container .cantact P {
+          display: inline-block; }
+
+/*# sourceMappingURL=about.css.map */

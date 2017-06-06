@@ -1,0 +1,99 @@
+@charset "utf-8";
+.web {
+    .clear {
+        clear: both;
+    }
+    header {
+        width: 100%;
+        font-size: 14px;
+        background-color: #222222;
+        a {
+            color: #9d9d9d;
+        }
+        .navbar {
+//          width: 990px;
+            margin-bottom: 0;
+            button{
+            	span{
+            		background-color: white;
+            	}
+            }
+        }
+        .navbar-brand {
+            padding: 0px 18px 7px 20px;
+        }
+        .active {
+            >a {
+                background-color: #080808;
+                color: white;
+            }
+        }
+        @media only screen and (min-width: 768px) and (max-width: 992px) {
+            .navbar {
+                width: 768px;
+            }
+            .navbar-nav>li>a {
+                padding: 15px 5px;
+            }
+        }
+    }
+    section {}
+    footer {
+        .navbar-text {
+            margin: 7px;
+            display: inline-block; 
+        }
+        .commLeft{
+        	width: 100%;
+        }
+        .commLink {
+            a {
+                position: relative;
+                &:hover {
+                    .code {
+                        display: block;
+                    }
+                }
+                .code {
+                    width: 142px;
+                    display: none;
+                    border-radius: 3px;
+                    position: absolute;
+                    bottom: 80%;
+                    left: -50%;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/***********图片处理****************/
+
+.picture {
+    img {
+        width: 100%;
+    }
+}
+
+
+/************字体*************/
+.font_48{
+font-size: 48px;
+}
+.font_38 {
+    font-size: 38px;
+}
+.font_36{
+	font-size: 36px;
+}
+.font_30 {
+    font-size: 30px;
+}
+
+.font-20 {
+    font-size: 20px;
+}

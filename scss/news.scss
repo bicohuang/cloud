@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+
+.web{
+	section{
+		.container{
+			max-width: 1000px;
+			padding: 0;
+			h1{
+				padding: 19px 0 29px;
+        		color: #ff6900;
+			}
+			.newsTatil{
+				font-size: 0;
+	        	position: relative;
+				img{
+					width: 100%;
+				}
+				p{
+					margin: 0;
+					display: block;
+			        width: 100%;
+			        height: 42px;
+			        padding-left: 19px;
+			        font-size: 14px;
+			        line-height: 42px;
+			        color: white;
+			        overflow: hidden;
+			        background-color: rgba(0,0,0,.5);
+			        position: absolute;
+			        left: 0;
+			        bottom: 0;
+				}
+			}
+			.newsCanter{
+				padding: 84px 0 35px;
+		        color: #666666;
+		        font-size: 14px;
+		        border-bottom: 1px dashed #d4d4d4;
+		        .row{
+		        	margin-bottom: 35px;
+		        	.newTitle{
+						font-size: 18px;
+			            &:hover{
+			                color: #ff6900;
+			            }
+					}
+					.time{
+						
+					}
+					.newsSection{
+						padding-top: 10px;
+			            .newsButton{
+			                float: right;
+			                width: 98px;
+			                color: #ff6900;
+			                line-height: 32px;
+			                border: 1px solid #ff6900;
+			                border-radius: 16px;
+			                text-align: center;
+			                text-decoration: none;
+			                &:hover{
+			                    color: white;
+			                    background-color: #ff6900;
+			                }
+			            }
+				        
+					}
+		        }
+				
+			}
+			
+			.newsPage{
+				ul{
+					li{
+						
+						a,span{
+							color: #666666;
+						}
+						a:hover,a:active{
+							background-color: #e34637;
+							color: white;
+						}
+						
+					}
+					.active{
+						background-color: #e34637;
+						color: white;
+					}
+					
+					
+				}
+				
+				
+			}
+			
+		}
+		
+		
+		
+	}
+}
+@media  screen and (max-width:768px){
+        .newTitle{
+            span{
+                display: none;
+            }
+        }
+        .newsSection{
+            display: none;
+        }
+    }
+@media  screen and (max-width:480px){
+    .newsCenter{
+        .newTitle{
+            font-size: 14px;
+        }
+        .time{
+            font-size: 12px;
+        }
+    }
+}
+    
